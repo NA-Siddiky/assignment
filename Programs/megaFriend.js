@@ -2,6 +2,8 @@ function megaFriend(names) {
     var count = 0;
     var longest_name;
     for (var i = 0; i < names.length; i++) {
+
+
         if (names[i].length > count) {
             var count = names[i].length;
             longest_name = names[i];
