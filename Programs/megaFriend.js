@@ -7,7 +7,7 @@ function megaFriend(names) {
             longest_name = names[i];
         }
     }
-    return longest_name;
+    return longest_name;        // Return the largest name of the friend /
 }
 
 var names = ["anik", "tuhin", "sid", "Siddiky", "Abdul", "jobber",];
