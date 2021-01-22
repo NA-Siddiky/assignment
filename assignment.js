@@ -6,7 +6,7 @@ function kilometerToMeter(kilometer) {
     if (kilometer < 0) {
         return (input);
     }
-    var meter = kilometer * 1000;       // According to the Law of km to meeter conversion / 
+    var meter = kilometer * 1000;             // According to the Law of km to meeter conversion / 
     return meter;
 }
 
@@ -31,12 +31,12 @@ function hotelCost(days) {
         return (input);
     }
     if (days <= 10) {
-        cost = days * 100;      // costing is 100 for first 10 days /
+        cost = days * 100;                         // costing is 100 for first 10 days /
     }
     else if (days <= 20) {
         var first_10_Days = 10 * 100;
         var remaining = days - 10;
-        var secound_20_Days = remaining * 80;       // costing is 80 for 11-20 days /
+        var secound_20_Days = remaining * 80;      // costing is 80 for 11-20 days /
         cost = first_10_Days + secound_20_Days;
     }
     else {
@@ -59,5 +59,5 @@ function megaFriend(names) {
             longest_name = names[i];
         }
     }
-    return longest_name;        // Return the largest name of the friend /
+    return longest_name;                              // Return the largest name of the friend /
 }
