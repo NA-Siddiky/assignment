@@ -7,5 +7,5 @@ function kilometerToMeter(kilometer) {
     return meter;
 }
 
-var measure = kilometerToMeter(0.5);
+var measure = kilometerToMeter(1);
 console.log(measure);

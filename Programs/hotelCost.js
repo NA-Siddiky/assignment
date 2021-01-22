@@ -22,5 +22,5 @@ function hotelCost(days) {
     }
     return cost;
 }
-var total_cost = hotelCost(0);
+var total_cost = hotelCost(30);
 console.log(total_cost);
