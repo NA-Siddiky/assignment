@@ -19,7 +19,7 @@ function budgetCalculator(watch, phone, laptop) {
     var watch = (watch * 50);
     var phone = (phone * 100);
     var laptop = (laptop * 500);
-    var total = (watch + phone + laptop);   //total budget for yours 3 item /
+    var total = (watch + phone + laptop);       //total budget for yours 3 item /
     return total;
 }
 
@@ -59,5 +59,5 @@ function megaFriend(names) {
             longest_name = names[i];
         }
     }
-    return longest_name;
+    return longest_name;        // Return the largest name of the friend /
 }
